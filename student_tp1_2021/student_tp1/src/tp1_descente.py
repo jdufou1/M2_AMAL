@@ -38,4 +38,3 @@ for n_iter in range(1000):
     ##  TODO:  Mise à jour des paramètres du modèle
     w -= learning_rate * grad_w / nb_data
     b -= learning_rate * grad_b / nb_data
-
